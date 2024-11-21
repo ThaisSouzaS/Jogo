@@ -1,0 +1,262 @@
+
+.body{
+background-color: #191970;
+width: 100%;
+max-width: 100wh;
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 100%;
+}
+
+
+.col ul {
+    display: flex;
+    justify-content: left;
+}
+
+.col ul li {
+    font-size: 1.5rem;
+    color: #fdf9f8;
+    font-weight: bolder;
+    position: relative;
+    margin: 0 2rem;
+    text-decoration: none;
+    display: block;
+    max-width: 100wh;
+}
+
+.col a {
+    text-decoration: none;
+}
+
+
+.col h1 {
+    margin-top: 8%;
+    font-size: 5rem;
+    color: whitesmoke;
+    font-family: 'Azeret Mono';
+    font-weight: bolder;
+    display: flex;
+    position: relative;
+}
+#download-pag {
+    margin-left: 50%;
+    margin-top: -10%;
+    max-width: 100wh;
+    top: 50%;
+    left: 50%;
+}
+
+#download-pag img {
+    width: 40.5%;
+    padding-left: 0.9%;
+}
+
+.footer {
+    background-color: #502314;
+    padding-bottom: 3%;
+}
+
+
+.menu ul li{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-family: 'Azeret Mono';
+    font-weight: bolder;
+    position: relative;
+    margin: 0 1rem;
+    text-decoration: none;
+    display: block;
+    max-width: 100wh;
+    list-style:armenian none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu2 ul li {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    font-family: 'Azeret Mono';
+    font-weight: normal;
+    position: relative;
+    margin: 0 1rem;
+    text-decoration: none;
+    max-width: 100wh;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu2 hr {
+    color: whitesmoke;
+    max-width: 100wh;
+    margin-left: 4%;
+    margin-right: 4%;
+    position: relative;
+    display: flex;
+    margin-top: 2.5%;
+}
+
+.footer h2 {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    font-family: 'Azeret Mono';
+    font-weight: bolder;
+    position: relative;
+    max-width: 100wh;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.footer h5 {
+    font-size: 1rem;
+    color: whitesmoke;
+    font-family: 'Azeret Mono';
+    font-weight: normal;
+    position: relative;
+    max-width: 100wh;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-top: 2%;
+}
+.download {
+    padding-top: 1%;
+    padding-left: 5%;
+    background-color: #d62300;
+}
+.col h1 {
+    margin-top: 8%;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Azeret Mono';
+    font-weight: bolder;
+    display: flex;
+    position: relative;
+}
+
+.container div{
+    background-color: palevioletred;
+    padding: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 300px 100px 100px 100px;
+    grid-auto-rows: 100px;
+    grid-gap: 80px;
+    margin-top: 5%;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    height: 650px;
+}
+
+.pag-download img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 650px;
+    margin-top: 5%;
+}
+
+.conteudo {
+    height: 650px;                      /* Define a altura do container */
+    background-image: url('img/img33.jpg'); /* Caminho da imagem */
+    background-size: cover;             /* Faz a imagem cobrir todo o espaço */
+    background-position: center;        /* Centraliza a imagem */                       /* Texto em branco para contraste */
+    display: flex;                      /* Centraliza o conteúdo */
+    flex-direction: column;             /* Alinha texto verticalmente */
+    justify-content: center;            /* Centraliza verticalmente */
+    align-items: center;                /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+.pagtitulo {
+    height: 650px;                      /* Define a altura do container */
+    background-image: url('img/fundo.jpg'); /* Caminho da imagem */
+    background-size: cover;             /* Faz a imagem cobrir todo o espaço */
+    background-position: center;        /* Centraliza a imagem */                       /* Texto em branco para contraste */
+    display: flex;                      /* Centraliza o conteúdo */
+    flex-direction: column;             /* Alinha texto verticalmente */
+    justify-content: center;            /* Centraliza verticalmente */
+    align-items: center;                /* Centraliza horizontalmente */
+    text-align: center;
+    margin-top: 5%;
+    color: #191970;
+    
+}
+.pagtitulo h1 {
+    color: #A82626;
+}
+
+.card {
+    width: 330px; /* Largura menor */
+    height: 450px;
+    background-color: rgba(40, 39, 39, 0.53); /* Cinza com transparência */
+    border-radius: 0px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    text-align: justify;
+    color: #fff;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo */
+  }
+
+  .card-button {
+    display: inline-block;
+    padding: 5px 20px;
+    color: #fff; /* Texto em branco */
+    background-color: transparent; /* Fundo transparente */
+    border: 2px solid #fff; /* Contorno branco */
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center; /* Alinha o texto do botão */
+    transition: all 0.3s ease;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    gap: 60px; /* Espaço entre os cards */
+    padding: 20px; /* Espaço interno ao redor */
+  }
+
+/* Exemplo de animação suave para imagens ao passar o mouse */
+.container img {
+    transition: transform 0.3s ease;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+.container h1 {
+    color: #fff;
+}
+
+.characters {
+    color: #191970;
+}
